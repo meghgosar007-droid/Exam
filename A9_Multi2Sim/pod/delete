@@ -1,0 +1,2 @@
+#!/bin/bash
+podman stop m2s-lab && podman rm m2s-lab

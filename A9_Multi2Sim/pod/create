@@ -1,0 +1,2 @@
+#!/bin/bash
+podman create -it --name m2s-lab -v "$PWD":/work:Z -w /work docker.io/multi2sim/multi2sim bash

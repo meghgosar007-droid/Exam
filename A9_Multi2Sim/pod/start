@@ -1,0 +1,2 @@
+#!/bin/bash
+podman start -ai m2s-lab
