@@ -1,0 +1,8 @@
+a100
+mov ax,0017
+mov bl,05
+div bl
+int 3
+
+g=100
+q

@@ -1,0 +1,8 @@
+a100
+mov ax,0005
+mov bx,0002
+sub ax,bx
+int 3
+
+g=100
+q

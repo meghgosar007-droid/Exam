@@ -1,0 +1,36 @@
+a100
+mov ax,1000
+mov ds,ax
+mov si,0300
+mov di,0400
+mov cx,000a
+cmp di,si
+jg 011d
+mov al,[si]
+mov [di],al
+inc si
+inc di
+dec cx
+jnz 0112
+jmp 012c
+add si,cx
+dec si
+add di,cx
+dec di
+mov al,[si]
+mov [di],al
+dec si
+dec di
+dec cx
+jnz 0123
+int 3
+
+a105
+mov si,0300
+mov di,0305
+mov cx,000a
+
+e 1000:0300 11 22 33 44 55 66 77 88 99 aa
+g=100
+d 1000:0300 l f
+q
